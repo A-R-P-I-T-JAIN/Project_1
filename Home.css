@@ -1,0 +1,97 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #f0f4f5;
+    background-image: url('./assests/stethoscope.png');
+    background-repeat: 0;
+    justify-content: center;
+    width: 91vw;
+    height: 91vh;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+}
+li {
+    list-style: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    margin-right: 30px;
+}
+nav ul li a:hover {
+    text-decoration: underline solid blue;
+    color: blue;
+}
+nav .logo {
+    margin-left: 120px;
+    margin-top: 5px;
+}
+nav .logo img {
+    width: 150px;
+}
+section {
+    display: flex;
+    margin-top: 140px;
+}
+section .left-sec {
+    margin-left: 120px;
+}
+.left-sec .top-angle {
+    width: 15px;
+    position: absolute;
+    top: 250px;
+}
+.left-sec .bottom-angle {
+    width: 15px;
+    position: absolute;
+    left: 46%;
+}
+.left-sec h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+.left-sec button {
+    background-color: #22bc7e;
+    border-radius: 25px;
+    color: white;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    height: 50px;
+    font-size: 24px;
+}
+.left-sec button:hover {
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.right-sec .green-box {
+    position: absolute;
+    right: 0;
+    width: 30%;
+    bottom: 50px;
+}
+.right-sec .yellow-box {
+    position: absolute;
+    right: 0;
+    width: 25%;
+    bottom: 50px;
+}
+.right-sec .doctor {
+    position: absolute;
+    height: 90%;
+    right: 0;
+    bottom: 0;
+}

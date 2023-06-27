@@ -1,0 +1,90 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #f0f4f5;
+    width: 91vw;
+    height: 91vh;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+}
+li {
+    list-style: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    margin-right: 30px;
+}
+nav ul li a:hover {
+    text-decoration: underline solid blue;
+    color: blue;
+}
+nav .logo {
+    margin-left: 120px;
+    margin-top: 5px;
+}
+nav .logo img {
+    width: 150px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+section div {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+section div h1 {
+    align-self: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+section div label {
+    font-size: 19px;
+    margin-left: 30px;
+    font-weight: 800;
+}
+section div input {
+    margin: 0 30px 0 30px;
+    border-radius: 5px;
+    border: transparent;
+    height: 25px;
+    margin-bottom: 20px;
+}
+section div .msg_input {
+    height: 100px;
+    
+}
+section div button {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    background-color: #4bc795;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    height: 30px;
+}
+section div button:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
